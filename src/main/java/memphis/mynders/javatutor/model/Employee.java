@@ -7,6 +7,10 @@ public class Employee {
     private String ssn;
     private double salary;
 
+    public Employee(){
+
+    }
+
     public Employee(String firstName, String lastName, PhoneType phoneType, String ssn, double salary){
         this.firstName = firstName;
         this.lastName = lastName;
